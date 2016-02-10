@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0px 15px;
+  width: 970px;
+}
