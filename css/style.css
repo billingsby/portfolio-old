@@ -7,49 +7,78 @@ html {
   box-sizing: inherit;
 }
 
-body {
+html, body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+ 
+  margin: 0;
+  padding: 0;
 }
 
 .content {
   margin: 0 auto;
   padding: 0px 15px;
-  width: 73rem;
+  width: 90%;
+
 }
+
+h1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* Media Queries */
+/*@media only screen and (max-width: 500px) {
+  .intro .content .intro-title .name {
+    font-size: 5px;
+  }
+  
+}
+*/
+/*@media only screen and (min-width: 1100px) { 
+  
+  
+ 
+
+}*/
 
 /* Header */
 
 .intro{
   background-color: black;
   color: white;
-  text-align: center;
   margin: 0;
   padding: 0;
 
 }
 
-.intro .content > h1 {
+.intro .content .intro-title {
+  text-align: center;
+}
+
+.intro .content .intro-title .name {
   margin: 0;
-  font-weight: 400;
-  font-size: 1rem;
   padding: 4em 0 1em 0;
   text-transform: uppercase;
 }
 
-.intro .content > hr {
+.intro .content .intro-title > hr {
   width: 2em;
   border: 0;
   border-top: .5px solid #eaebec;
 }
 
-.intro .content > h2 {
-  font-weight: 400;
-  font-size: 1.5rem;
+.intro .content .intro-title .sub-name {
+  
   margin: .5em;
 }
 
-.intro .content .logo {
+.intro .content .intro-title .logo {
   width: 2em;
   padding-bottom: 3em;
 }
@@ -64,9 +93,6 @@ body {
 }
 
 .portfolio .portfolio-items {
-  
-  
-   
   text-align: center;
   margin-bottom: 4em;
 }
@@ -124,7 +150,7 @@ body {
 }
 
 .about .content {
-  max-width: 45rem;
+  max-width: 60%;
   
 }
 
@@ -169,13 +195,16 @@ display: inline-block;
 
 .contact .content > hr {
     border: 0;
-    border-top: 1px solid #eaebec;
+    border-top: 1px solid #656565;
     padding: .5rem 0;
     margin: 0;
+    overflow: hidden;
 }
 
 .contact .content > div {
   float: left;
+  overflow: hidden;
+  
 
 }
 
