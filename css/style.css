@@ -15,5 +15,166 @@ body {
 .content {
   margin: 0 auto;
   padding: 0px 15px;
-  width: 970px;
+  width: 73rem;
+}
+
+/* Header */
+
+.intro{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.intro .content > h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 4em 0 1em 0;
+  text-transform: uppercase;
+}
+
+.intro .content > hr {
+  width: 2em;
+  border: 0;
+  border-top: .5px solid #eaebec;
+}
+
+.intro .content > h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: .5em;
+}
+
+.intro .content .logo {
+  width: 2em;
+  padding-bottom: 3em;
+}
+
+/* Portfolio */
+
+
+
+
+/* About */
+
+.about {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.about .content {
+  max-width: 45rem;
+  
+}
+
+.about .content > p {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+  margin: 0;
+  padding: 2.5em 0;
+  
+}
+
+/* Footer */
+
+.contact {
+  background-color: black;
+  color: #656565;
+  
+}
+
+.contact .content  a {
+  text-decoration: none;
+  color: #656565;
+  font-weight: 600;
+}
+
+.contact .content {
+  padding-bottom: 3em;
+  text-align: center;
+
+}
+
+.contact .content li {
+display: inline-block;
+}
+
+.contact .content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact .content > hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    padding: .5rem 0;
+    margin: 0;
+}
+
+.contact .content > div {
+  float: left;
+
+}
+
+.contact .content .left {
+    width: 25%;
+    text-align: left;
+}
+
+
+.contact .content .middle {
+    width: 50%;
+    text-align: center;
+}
+
+
+.contact .content .middle ul li > a:hover {
+  color: white;
+}
+
+/* Social Icons */
+.contact .content .social {
+  width: 25%;
+  height: 5rem;
+  text-align: right;
+}
+
+.contact .content .social .icons > li {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 1.2em 0;
+  
+}
+
+.contact .content .social .icons > li:hover {
+    cursor: pointer;
+}
+
+.contact .content .social .twitter:hover {
+    color: #55acee;
+}
+.contact .content .social .facebook:hover {
+    color: #4c66a4;
+}
+.contact .content .social .instagram:hover {
+    color: #3f729b;
+}
+.contact .content .social .github:hover {
+    color: #fff;
+}
+.contact .content .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    width: 100%;
+    margin: 0 auto;
+    
 }
